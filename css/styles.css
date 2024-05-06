@@ -1,0 +1,102 @@
+/* CSS Document */
+
+html, body{
+    height: 100%;
+}
+     
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 14pt; /* Tamaño de la letra, afecta al menú*/
+}
+         
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
+    color: #404040;
+}
+     
+p, ol, ul{
+    margin-top: 0;
+}
+ 
+p {
+    line-height: 180%;
+}
+ 
+ol, ul{
+    padding: 0;
+    list-style: none;
+}
+     
+.container{   
+    /* Set width of container to
+        1200px and align center */
+    margin: 0px auto;
+    width: 1200px;
+}
+header{
+	
+	overflow: hidden;
+}
+#top-header{
+		
+	text-align: center;
+	height: 120px;
+}
+#logo{
+	float: left;
+	padding: none;
+	margin: none;
+	height: 100px;
+	width: 20%; /*Afecta a la imagen*/
+}
+
+#logo img{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+}
+#menu{
+	float: right;
+	width: 70%;
+	height: 100%;
+	margin: none;
+}
+	
+#menu ul{
+	text-align: center;
+	float: right;
+	margin: none;
+	background: #FFFFFF;
+}
+	
+#menu li{
+	display: inline-block;
+	padding: none;
+	margin: none;
+}
+	
+#menu li a, #menu li span{
+	display: inline-block;
+	padding: 0em 1.5em;
+	text-decoration: none;
+	font-weight: 600;
+
+	line-height: 100px;
+}
+	
+#menu li a{
+		
+	color: #66696A;
+}
+	
+#menu li:hover a, #menu li span{
+	background: #FFFFFF;
+	color: #66696A;
+	border-left: 1px solid #FFFFFF;
+	text-decoration: none;
+}
+@font-face { font-family: 'Roboto'; font-style: normal; font-weight: 300; src: url('../fonts/roboto-v27-latin-300.eot'); src: url('../fonts/roboto-v27-latin-300.eot?#iefix') format('embedded-opentype'), url('../fonts/roboto-v27-latin-300.woff2') format('woff2'), url('../fonts/roboto-v27-latin-300.woff') format('woff'), url('../fonts/roboto-v27-latin-300.ttf') format('truetype'), url('../fonts/roboto-v27-latin-300.svg#Roboto') format('svg'); }

@@ -1,0 +1,10 @@
+{
+    "require": {
+        "components/jquery": "^3.5",
+        "dompdf/dompdf": "^1.0",
+        "ghunti/highcharts-php": "^3.0",
+        "twbs/bootstrap": "^5.1",
+        "components/modernizr": "^3.5",
+        "dimsemenov/magnific-popup": "^1.1"
+    }
+}

@@ -1,0 +1,3 @@
+crear: Alta de Usuarios de login
+controlador_hash: validación del Hash para crear.php
+prueba_hash_bcrypt: sólo es una prueba, no subir

@@ -1,0 +1,5 @@
+conexion: conexion tradicional
+conexion_pdo: nueva conexion
+login_sumar: página de login
+home: a donde llega luego de hacer login.
+login_javascript2: validación de campos vacíos y no más de 20 caracteres en usuario y contraseña
